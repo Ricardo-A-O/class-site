@@ -1,0 +1,31 @@
+
+body{
+  color: #332f2e;
+background-color: #f7b2c7;
+}
+
+
+.chiquito{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2.5%;
+  font-family: spacemono, monospace;
+font-weight: light;
+font-style: italic;
+font-size: 24px;
+}
+a{
+  text-decoration: none;
+  color:#332f2e;
+  cursor: pointer;
+
+}
+a:hover {
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+}
+.space{
+  margin-left: 2.5%;
+
+}

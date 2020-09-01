@@ -1,0 +1,46 @@
+body{
+  background-color: #c1f7ff;
+  font-family: monospace;
+}
+
+hr{
+  height: 1px;
+  background-color: black;
+  border: none;
+}
+.middle-col{
+  float:left;
+  padding: 5px;
+  width:60%;
+  align:center;
+}
+
+.left-col {
+  float:left;
+  width:20%;
+}
+.right-col{
+  width:20%;
+}
+ .align{
+   display:flex;\
+ }
+ .text{
+   padding-left: 10px;
+ }
+
+ .container{
+   text-align: center;
+   display: block;
+
+ }
+.element{
+  object-fit: fill || contain || cover || none || scale-down;
+}
+.small-1{
+  /* padding-left: 14.5%; */
+}
+
+.small-2{
+  /* padding-left: 14.5%; */
+}
