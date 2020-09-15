@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #10784f;
+  font-family: termina, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #f16e70;
+}
+@font-face {
+    font-family: 'MachaCow';
+    src:url('MachaCow.ttf.woff') format('woff'),
+        url('MachaCow.ttf.svg#MachaCow') format('svg'),
+        url('MachaCow.ttf.eot'),
+        url('MachaCow.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-item: center;
+
+}
+
+.title-item{
+  font-family: 'MachaCow';
+  font-size: 12vw;
+  margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.bio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  padding: 0px 200px 0px 200px;
+
+}
+
+.bio-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.split{
+  padding-right: 2%;
+}
+.split-two{
+  /* padding-left: 2%; */
+}
+.project{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 200px 0px 200px;
+  text-align: center;
+
+}
+.meat{
+  display:flex;
+  flex-direction: column;
+  padding: 0px 200px 0px 200px;
+  align-items: center;
+  justify-content: center;
+}
+.justify{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items:flex-start;
+  
+}
