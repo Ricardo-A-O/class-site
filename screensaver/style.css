@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  background: rgb(221, 169, 211);
+  height:100vh;
+  width:100vw;
+  overflow-y: hidden;
+  font-family: monospace;
+  font-size: 5em;
+  color:rgba(54, 39, 193, 0);
+  font-style: italic;
+  -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.fix{
+  position: fixed;
+  top: 50%;
+  left:50%;
+  z-index: 2;
+   transform: translate(-50%, -50%);
+}
+
+.main-container{
+  width:100vw;
+  height:100%;
+  background: rgb(252, 125, 85);
+  animation: run linear 2s infinite ;
+}
+
+.copy{
+  height: 100%;
+  width:100vw;
+  position:fixed;
+  top:-100vh;
+  animation: run linear 2s infinite;
+}
+
+@keyframes run {
+  0%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: translateY(100vh);
+  }
+
+}

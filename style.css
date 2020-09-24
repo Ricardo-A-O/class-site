@@ -1,3 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: row;
+  background: rgb(80, 207, 215);
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.center{
+  display: flex;
+  flex-direction:column;
+  width: 12vw;
+  height:15vh;
+  /* background: rgb(53, 102, 196); */
+  border-style: dashed;
+  justify-content: center;
+}
+
+
+
+
 .side{
   margin-left: 3px;
 }
