@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+.main-container{
+  display: flex;
+  background: rgb(236, 73, 135);
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  box-shadow: 0 0 0 1em cyan,
+     0 1em 0 1em cyan,
+     -2.5em 1.5em 0 .5em cyan,
+     2.5em 1.5em 0 .5em cyan,
+     -3em -3em 0 0 cyan,
+     3em -3em 0 0 cyan,
+     -2em -2em 0 0 cyan,
+     2em -2em 0 0 cyan,
+     -3em -1em 0 0 cyan,
+     -2em -1em 0 0 cyan,
+     2em -1em 0 0 cyan,
+     3em -1em 0 0 cyan,
+     -4em 0 0 0 cyan,
+     -3em 0 0 0 cyan,
+     3em 0 0 0 cyan,
+     4em 0 0 0 cyan,
+     -5em 1em 0 0 cyan,
+     -4em 1em 0 0 cyan,
+     4em 1em 0 0 cyan,
+     5em 1em 0 0 cyan,
+     -5em 2em 0 0 cyan,
+     5em 2em 0 0 cyan,
+     -5em 3em 0 0 cyan,
+     -3em 3em 0 0 cyan,
+     3em 3em 0 0 cyan,
+     5em 3em 0 0 cyan,
+     -2em 4em 0 0 cyan,
+     -1em 4em 0 0 cyan,
+     1em 4em 0 0 cyan,
+     2em 4em 0 0 cyan;
+     background: cyan;
+     width: 1em;
+     height: 1em;
+     overflow: hidden;
+     margin: 50px 0 70px 65px;
+     margin:200px;
+}
+
+@media screen and (max-width:1204px) {
+
+  .main-container{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+
+  }
+
+
+}
+@media screen and (max-width:800px) {
+
+  .main-container{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .box{
+    margin: 0px;
+  }

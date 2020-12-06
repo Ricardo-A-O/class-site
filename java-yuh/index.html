@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Responsive</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <button onclick="toggle()">Click me...</button>
+
+  <div id="box" class="normal">
+    the box
+  </div>
+
+  <script>
+function toggle() {
+var box = document.getElementById("box");
+
+box.classList.toggle("active");
+}
+</script>
+
+</body>
+
+</html>

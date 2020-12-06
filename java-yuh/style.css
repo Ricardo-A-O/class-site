@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+
+
+.normal{
+  height: 100vh;
+  width: 300px;
+  padding: 25px;
+  background-color: coral;
+  color: white;
+  font-size: 25px;
+  position: fixed;
+  top:0;
+  right:-300px;
+  transition: transform .4s;
+  font-family: monospace;
+}
+
+.active {
+transform: translateX(-300px);
+}
+button{
+  width: 100px;
+  height: 35px;
+  background: coral;
+  border-style: none;
+  font-family: monospace;
+}
